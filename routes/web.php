@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.home.index');
+
+# Auth::routes();
+Route::get('/', function () { return view('frontend.home.index'); });
+
+Route::group(['namespace' => 'Front'], function () {
+
+	Route::resource('signup', 'SignUpController');
+
 });

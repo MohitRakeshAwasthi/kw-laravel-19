@@ -4,6 +4,8 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Http\Request;
+use \Hash;
 
 class User extends Authenticatable
 {
@@ -15,7 +17,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email','mobile', 'password',
     ];
 
     /**
@@ -26,4 +28,18 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    /**
+    * store new user 
+    * @param Illuminate\Http\Reques $request
+    * @return User model
+    */
+    static function signup(Request $request)
+    {
+        return self::create([
+                'name'   => $request->name,    'email'    => $request->email,
+                'mobile' => $request->mobile,  'password' => Hash::make($request->password)
+        ]);
+    }
+
 }

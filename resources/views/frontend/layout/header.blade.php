@@ -8,9 +8,9 @@
           <hr />
           <span><a href="mailto:info@kanoonvala.com"><i class="fa fa-envelope"></i> info@kanoonvala.com</a></span>
           <hr />
-          <span><a href="login.html"><i class="fa fa-sign-in"></i> Sign In</a></span>
+          <span><a href="{!! url('signin') !!}"><i class="fa fa-sign-in"></i> Sign In</a></span>
           <hr />
-          <span><a href="sign-up.html"><i class="fa fa-user"></i> Sign Up</a></span> </div>
+          <span><a href="{!! url('signup') !!}"><i class="fa fa-user"></i> Sign Up</a></span> </div>
         <div class="nav navbar-nav pull-right">
           <div class="minisocial-group"> <a target="_blank" href="https://www.facebook.com/Kanoonvala-1734079183334384/"><i class="fa fa-facebook first"></i></a> <a target="_blank" href="https://twitter.com/kanoonvala"><i class="fa fa-twitter"></i></a> <a target="_blank" href="http://www.inkedin.com"><i class="fa fa-linkedin"></i></a></div>
         </div>
@@ -23,7 +23,7 @@
           <a class="navbar-brand" href="index.html"> <img class="logo-default" src="images/logo.png" alt="Kanoon Vala" title="Kanoon Vala" /></a> </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"> <a href="index.html">Home</a></li>
+            <li class="active"> <a href="{!! url('/') !!}">Home</a></li>
             <li class="dropdown mega-dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Legal Advice <span class="caret"></span></a>
               <div class="mega-menu dropdown-menu multi-level row bg-menu">
                 <div class="col">

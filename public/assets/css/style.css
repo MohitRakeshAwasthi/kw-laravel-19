@@ -5716,3 +5716,10 @@ font-size:16px
 .mt35 {
 	margin-top:35px!important
 }
+.error{
+	color: red;
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
