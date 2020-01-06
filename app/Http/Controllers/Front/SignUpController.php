@@ -10,9 +10,19 @@ use App\User;
 class SignUpController extends Controller
 {
     /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('guest:web');
+    }
+
+    /**
      * Display sign up view.
      *
-     * @return View
+     * @return view
      */
     public function index()
     {
@@ -23,7 +33,7 @@ class SignUpController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return Redirect
      */
     public function store(SignUpRequest $request)
     {
@@ -34,47 +44,21 @@ class SignUpController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
+     * Only validate from frontend JS
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return String
      */
     public function update(Request $request, $id)
     {
-        //
+        $user  = User::where( 'email', '=', $request->email )->first( );
+        switch ($id) 
+        {
+            case '-1':
+                
+                return $user ? 'false' : 'true';
+        }     
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }

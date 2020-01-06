@@ -18,5 +18,7 @@ Route::get('/', function () { return view('frontend.home.index'); });
 Route::group(['namespace' => 'Front'], function () {
 
 	Route::resource('signup', 'SignUpController');
+	Route::resource('signin', 'SignInController');
+	Route::get('logout', 'SignInController@logout');
 
 });

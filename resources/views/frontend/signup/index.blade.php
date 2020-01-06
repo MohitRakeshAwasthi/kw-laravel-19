@@ -1,7 +1,7 @@
 @extends('frontend.layout.master')
 
 <!-- Dynamic Tiltile  -->
-@section('title', 'Home Page')
+@section('title', 'Signup Page')
 
 <!-- Page Content -->
 @section('content')

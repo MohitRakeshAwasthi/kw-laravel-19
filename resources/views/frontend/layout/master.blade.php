@@ -49,7 +49,11 @@
     <script src="{{ asset('assets/scripts/flexslider/jquery.flexslider-min.js') }}"></script>
     <script src="{{ asset('assets/scripts/jquery.progress-counter.js') }}"></script>
     <script src="{{ asset('assets/scripts/smooth.scroll.min.js') }}"></script>
-    
+    <script src="{{ asset('assets/scripts/public.js') }}"></script>    
+    <!-- Global Variables -->
+    <script type="text/javascript">
+        const url = "{{ url('/') }}";
+    </script>
     @stack('scripts')
     <!-- End of js include -->
 </body>
