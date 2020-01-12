@@ -35,8 +35,8 @@
                 <div class="col">
                   <h4 class="text-danger"><strong>Personal</strong></h4>
                   <ul class="fa-ul no-icons text-s">
-                    <li><a href="divorce.html">Divorce</a></li>
-                    <li><a href="marriage-registration.html">Marriage Registration</a></li>
+                    <li><a href="{{ url('menu-content/divorce') }}">Divorce</a></li>
+                    <li><a href="{{ url('menu-content/marriage-registration') }}">Marriage Registration</a></li>
                     <li><a href="family-law.html">Family Law</a></li>
                     <li><a href="immigration.html">Immigration</a></li>
                     <li><a href="insurance.html">Insurance</a></li>
