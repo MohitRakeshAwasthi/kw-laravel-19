@@ -17,7 +17,9 @@ class StaticPages extends Controller
      */
     public function __construct()
     {
+
         $this->slug = request()->segment(2);
+    
     }
 
 	/**

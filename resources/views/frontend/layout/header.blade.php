@@ -26,18 +26,24 @@
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
-          <a class="navbar-brand" href="{{ url('/') }}"> <img class="logo-default" src="images/logo.png" alt="Kanoon Vala" title="Kanoon Vala" /></a> </div>
+          <a class="navbar-brand" href="{{ url('/') }}"> <img class="logo-default" src="{{ asset('assets/images/logo.png') }}" alt="Kanoon Vala" title="Kanoon Vala" /></a> </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"> <a href="{!! url('/') !!}">Home</a></li>
-            <li class="dropdown mega-dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Legal Advice <span class="caret"></span></a>
+            <li class="{{ Request::is('/') ? 'active' : '' }}"> <a href="{!! url('/') !!}">Home</a></li>
+            <li class="dropdown mega-dropdown {{ Request::segment(1) == 'legal-advice' ? 'active' : '' }}"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Legal Advice <span class="caret"></span></a>
               <div class="mega-menu dropdown-menu multi-level row bg-menu">
                 <div class="col">
                   <h4 class="text-danger"><strong>Personal</strong></h4>
                   <ul class="fa-ul no-icons text-s">
-                    <li><a href="{{ url('menu-content/divorce') }}">Divorce</a></li>
-                    <li><a href="{{ url('menu-content/marriage-registration') }}">Marriage Registration</a></li>
-                    <li><a href="family-law.html">Family Law</a></li>
+                    <li class="{{ Request::segment(2) == 'divorce' ? 'active' : '' }}">
+                      <a href="{{ url('legal-advice/divorce') }}">Divorce</a>
+                    </li>
+                    <li class="{{ Request::segment(2) == 'marriage-registration' ? 'active' : '' }}">
+                      <a href="{{ url('legal-advice/marriage-registration') }}">Marriage Registration</a>
+                    </li>
+                    <li class="{{ Request::segment(2) == 'family-law' ? 'active' : '' }}">
+                      <a href="{{ url('legal-advice/family-law') }}">Family Law</a>
+                    </li>
                     <li><a href="immigration.html">Immigration</a></li>
                     <li><a href="insurance.html">Insurance</a></li>
                   </ul>
