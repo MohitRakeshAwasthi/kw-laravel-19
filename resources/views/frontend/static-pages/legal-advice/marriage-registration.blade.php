@@ -13,7 +13,7 @@
 <div id="home" class="full-section parallax-home">
 	<div class="slider-caption">
 		<h2 style="font-size:25px;">Get Marriage Registration Done Online For <br><span>Just INR 7999/-</span></h2>
-		<a class="btn btn-transparent" href="marriage-registration.html"> Know More </a>
+		<a class="btn btn-transparent" href="#"> Know More </a>
 	</div>
 </div>
 

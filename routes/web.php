@@ -19,8 +19,8 @@ Route::group(['namespace' => 'Front'], function () {
 
 	Route::resource('signup', 'SignUpController');
 	Route::resource('signin', 'SignInController');
-	
-	Route::get('legal-advice/{slug}', 'StaticPages@index');
+	Route::resource('{main}/{slug}', 'StaticPages');
+
 	Route::get('logout', 'SignInController@logout');
 
 

@@ -76,7 +76,7 @@
                 <button type="submit" name="submit" id="submit" class="btn btn-block btn-lg btn-danger">Sign Up</button>
               </div>
               <p class="text-center"><a href="#!">Are you a lawyer? Click here To register.</a></p>
-              <p class="text-center"><a href="login.html">Already have an account? Take me to Login.</a></p>
+              <p class="text-center"><a href="{!! url('signin') !!}">Already have an account? Take me to Login.</a></p>
            </form> 
           </div>
         </div>

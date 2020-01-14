@@ -56,8 +56,8 @@
               <div class="form-group">
                 <button type="submit" class="btn btn-block btn-lg btn-danger">Login</button>
               </div>
-              <p class="text-center"><a href="#!">Forgot Password?</a></p>
-              <p class="text-center"><a href="sign-up.html">Not a registered user? Sign Up Here</a></p>
+              <p class="text-center"><a href="#">Forgot Password?</a></p>
+              <p class="text-center"><a href="{!! url('signup') !!}">Not a registered user? Sign Up Here</a></p>
             </form>
           </div>
         </div>

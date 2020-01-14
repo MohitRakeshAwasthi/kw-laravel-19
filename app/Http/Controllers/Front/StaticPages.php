@@ -8,32 +8,17 @@ use App\Http\Controllers\Controller;
 class StaticPages extends Controller
 {
 
-	public $slug;
-
-	/**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-
-        $this->slug = request()->segment(2);
-    
-    }
-
 	/**
      * Display view for Static.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index( $slug )
+    public function index( $main , $slug )
     {
-    	    	
-		try 
+    	try 
 		{
 
-			return view( 'frontend.static-pages.' . $this->slug );
+			return view( 'frontend.static-pages.'. $main . '.' . $slug );
 		
 		}
 
