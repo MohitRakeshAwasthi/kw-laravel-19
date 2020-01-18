@@ -44,8 +44,12 @@
                     <li class="{{ Request::segment(2) == 'family-law' ? 'active' : '' }}">
                       <a href="{{ url('legal-advice/family-law') }}">Family Law</a>
                     </li>
-                    <li><a href="immigration.html">Immigration</a></li>
-                    <li><a href="insurance.html">Insurance</a></li>
+                    <li class="{{ Request::segment(2) == 'immigration' ? 'active' : '' }}">
+                      <a href="{{ url('legal-advice/immigration') }}">Immigration</a>
+                    </li>
+                    <li class="{{ Request::segment(2) == 'insurance' ? 'active' : '' }}">
+                      <a href="{{ url('legal-advice/insurance') }}">Insurance</a>
+                    </li>
                   </ul>
                 </div>
                 <div class="col">
