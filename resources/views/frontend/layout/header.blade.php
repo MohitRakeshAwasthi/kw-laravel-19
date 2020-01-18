@@ -55,7 +55,9 @@
                 <div class="col">
                   <h4 class="text-danger"><strong>Corporate</strong></h4>
                   <ul class="fa-ul no-icons text-s">
-                    <li><a href="startup.html">Startup</a></li>
+                    <li class="{{ Request::segment(2) == 'startup' ? 'active' : '' }}">
+                      <a href="{{ url('legal-advice/startup') }}">Startup</a>
+                    </li>
                     <li><a href="corporate-law.html">Corporate Law</a></li>
                     <li><a href="arbitration.html">Arbitration</a></li>
                     <li><a href="employement.html">Employment</a></li>
