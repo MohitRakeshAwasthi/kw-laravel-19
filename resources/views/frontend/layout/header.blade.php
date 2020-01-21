@@ -91,19 +91,19 @@
                 <div class="col">
                   <h4 class="text-danger"><strong>Family</strong></h4>
                   <ul class="fa-ul no-icons text-s">
-                    <li><a href="mutual-consent-divorce.html">Mutual Consent Divorce</a></li>
-                    <li><a href="succession-certificate.html">Succession Certificate</a></li>
-                    <li><a href="draft-registration-will.html">Draft &amp; Register Will</a></li>
-                    <li><a href="court-marriage.html">Court Marriage</a></li>
+                    <li><a href="{{ url('legal-services/mutual-consent-divorce') }}">Mutual Consent Divorce</a></li>
+                    <li><a href="{{ url('legal-services/succession-certificate') }}">Succession Certificate</a></li>
+                    <li><a href="{{ url('legal-services/draft-registration-will') }}">Draft &amp; Register Will</a></li>
+                    <li><a href="{{ url('legal-services/court-marriage') }}">Court Marriage</a></li>
                     <li><a href="marriage-registration.html">Marriage Registration</a></li>
                   </ul>
                 </div>
                 <div class="col">
                   <h4 class="text-danger"><strong>Property</strong></h4>
                   <ul class="fa-ul no-icons text-s">
-                    <li><a href="property-registration.html">Property Registration</a></li>
-                    <li><a href="legal-notice-to-builder.html">Legal Notice To Builder</a></li>
-                    <li><a href="draft-registration-gift-deed.html">Draft &amp; Register Gift Deed</a></li>
+                    <li><a href="{{ url('legal-services/property-registration') }}">Property Registration</a></li>
+                    <li><a href="{{ url('legal-services/legal-notice-to-builder') }}">Legal Notice To Builder</a></li>
+                    <li><a href="{{ url('legal-services/draft-registration-gift-deed') }}">Draft &amp; Register Gift Deed</a></li>
                     <li><a href="residential-rental-aggreement.html">Residential Rental Agreement</a></li>
                     <li><a href="complaint-under-rera.html">Complaint under RERA</a></li>
                   </ul>
