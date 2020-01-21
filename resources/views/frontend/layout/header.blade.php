@@ -103,28 +103,28 @@
                     <li><a href="{{ url('legal-services/property-registration') }}">Property Registration</a></li>
                     <li><a href="{{ url('legal-services/legal-notice-to-builder') }}">Legal Notice To Builder</a></li>
                     <li><a href="{{ url('legal-services/draft-registration-gift-deed') }}">Draft &amp; Register Gift Deed</a></li>
-                    <li><a href="residential-rental-aggreement.html">Residential Rental Agreement</a></li>
-                    <li><a href="complaint-under-rera.html">Complaint under RERA</a></li>
+                    <li><a href="{{ url('legal-services/residential-rental-aggreement') }}">Residential Rental Agreement</a></li>
+                    <li><a href="{{ url('legal-services/complaint-under-rera') }}">Complaint under RERA</a></li>
                   </ul>
                 </div>
                 <div class="col">
                   <h4 class="text-danger"><strong>Startup</strong></h4>
                   <ul class="fa-ul no-icons text-s">
-                    <li><a href="company-hr-documentation.html">Company HR Documentation</a></li>
-                    <li><a href="website-policy-and-terms.html">Website Policy &amp; Terms</a></li>
-                    <li><a href="non-disclosure-agreement.html">Non Disclosure Agreement</a></li>
-                    <li><a href="founders-agreement-drafting.html">Founders Agreement Drafting</a></li>
-                    <li><a href="vendor-agreement-drafting.html">Vendor Agreement Drafting</a></li>
+                    <li><a href="{{ url('legal-services/company-hr-documentation') }}">Company HR Documentation</a></li>
+                    <li><a href="{{ url('legal-services/website-policy-and-terms') }}">Website Policy &amp; Terms</a></li>
+                    <li><a href="{{ url('legal-services/non-disclosure-agreement') }}">Non Disclosure Agreement</a></li>
+                    <li><a href="{{ url('legal-services/founders-agreement-drafting') }}">Founders Agreement Drafting</a></li>
+                    <li><a href="{{ url('legal-services/vendor-agreement-drafting') }}">Vendor Agreement Drafting</a></li>
                   </ul>
                 </div>
                 <div class="col">
                   <h4 class="text-danger"><strong>Legal Notice</strong></h4>
                   <ul class="fa-ul no-icons text-s">
-                    <li><a href="tenant-eviction.html">Tenant Eviction </a></li>
-                    <li><a href="cheque-bounce-notice.html">Cheque Bounce Notice</a></li>
-                    <li><a href="consumer-complaint-notice.html">Consumer Complaint Notice</a></li>
-                    <li><a href="debt-recovery-notice.html">Debt Recovery Notice</a></li>
-                    <li><a href="refund-of-security-notice.html">Refund of Security Notice</a></li>
+                    <li><a href="{{ url('legal-services/tenant-eviction') }}">Tenant Eviction </a></li>
+                    <li><a href="{{ url('legal-services/cheque-bounce-notice') }}">Cheque Bounce Notice</a></li>
+                    <li><a href="{{ url('legal-services/consumer-complaint-notice') }}">Consumer Complaint Notice</a></li>
+                    <li><a href="{{ url('legal-services/debt-recovery-notice') }}">Debt Recovery Notice</a></li>
+                    <li><a href="{{ url('legal-services/refund-of-security-notice') }}">Refund of Security Notice</a></li>
                   </ul>
                 </div>
               </div>
