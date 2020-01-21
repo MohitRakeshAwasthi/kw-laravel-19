@@ -23,4 +23,10 @@ Route::group(['namespace' => 'Front'], function () {
 	Route::get('{main}/{slug}', 'StaticPages@index');
 	Route::get('logout','SignInController@logout');
 
+	Route::middleware([ 'oauth' ])->group(function () {
+
+		Route::get('dashboard', 'DashboardController@index');
+
+	});
+
 });
