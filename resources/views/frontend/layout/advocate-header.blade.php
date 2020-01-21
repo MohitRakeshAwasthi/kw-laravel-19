@@ -9,7 +9,7 @@
       <div class="container">
         <div class="navbar-header admin_header">
           <div class="row">
-            <div class="col-xs-6"><a class="navbar-brand" href="index.html"> <img class="logo-default" src="{!! asset('assets/images/logo.png') !!}" alt="Kanoonvala" title="Kanoonvala" /></a> </div>
+            <div class="col-xs-6"><a class="navbar-brand" href="{{ url('dashboard') }}"> <img class="logo-default" src="{!! asset('assets/images/logo.png') !!}" alt="Kanoonvala" title="Kanoonvala" /></a> </div>
             <div class="col-xs-6 text-right">
               <div class="admin_user"><span>Welcome {{ ucwords(auth()->user()->name) }}</span> <img src="{!! asset('assets/images/client1.jpg') !!}"></div>
             </div>

@@ -26,26 +26,28 @@
     
     @stack('css')
 
+    @php $auth = auth()->check() @endphp
+
 </head>
 
 <body>
     <!-- Preloader -->
     <div id="preloader"></div>
 
+
     <!--  Header    -->
-    
-    @if( auth()->check() ) 
-            @include('frontend.layout.advocate-header') 
-    @else
-            @include('frontend.layout.header')
-    @endif
+    @if( $auth )  @include('frontend.layout.advocate-header') 
+    @else         @include('frontend.layout.header')   @endif
     
     <!-- Section Area   -->
     @yield('content')
 
     <!-- Footer Area end-->
-    @include('frontend.layout.footer')
-
+    @if( $auth )  @include('frontend.layout.advocate-footer') 
+    @else         @include('frontend.layout.footer')   @endif
+    
+    <!-- scroll up -->
+    <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
     <!-- Include Javascripts files globally -->
     <script src="{{ asset('assets/scripts/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/scripts/script.js') }}"></script>

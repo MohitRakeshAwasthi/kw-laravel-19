@@ -18,14 +18,22 @@ class DashboardController extends Controller
     }
 
     /**
-     * Display view for sign in.
+     * Display view for advocate dashboard.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-    	// dd(  auth()->user() );
-        return view('frontend.dashboard.index' , [ 'user' => auth()->user() ] );
+        return view('frontend.dashboard.index');
     }
 
+    /**
+     * Display view for advocate profile.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function profile()
+    {
+        return view('frontend.user.profile-update' , [ 'user' => auth()->user() ]);
+    }
 }

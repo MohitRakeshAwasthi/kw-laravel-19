@@ -13,19 +13,24 @@
 
 
 # Auth::routes();
-Route::get('/', function () { return view('frontend.home.index'); });
 
 Route::group(['namespace' => 'Front'], function () {
+	
+	Route::middleware([ 'guest' ])->group(function () {
 
-	Route::resource('signup', 'SignUpController');
-	Route::resource('signin', 'SignInController');
+		Route::resource('signup', 'SignUpController');
+		Route::resource('signin', 'SignInController');
 
-	Route::get('{main}/{slug}', 'StaticPages@index');
-	Route::get('logout','SignInController@logout');
+		Route::get('{main}/{slug}', 'StaticPages@index');
+		Route::get('/', function () { return view('frontend.home.index'); });
+
+	});
 
 	Route::middleware([ 'oauth' ])->group(function () {
 
+		Route::get('logout','SignInController@logout');
 		Route::get('dashboard', 'DashboardController@index');
+		Route::get('profile', 'DashboardController@profile');
 
 	});
 

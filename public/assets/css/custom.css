@@ -60,6 +60,15 @@ footer a{color: #696969;}
 .dashboard .form-group{margin-bottom:40px;}
 .dashboard .table-responsive{max-height:450px; overflow-y:auto;}
 
+.customer_dashboard .advs-box-top-icon:hover .icon{background:#000;}
+.customer_dashboard .advs-box-top-icon:not(.boxed) .icon {background:#3cb765;}
+.customer_dashboard .advs-box-side-icon.boxed-inverse, .customer_dashboard .advs-box-top-icon.boxed-inverse:hover{background:#ddf7d8;}
+.btn_info{background:#3cb765 !important;}
+.font30{font-size:30px;}
+.mt5{margin-top:5px !important;}
+.user_profile_img span{color:#000; font-size:16px;top: 12px;position: relative;}
+.user_profile_img img{max-width: 100%;max-height: 250px;border: solid 1px #ececec;display: inline-block;margin: 20px 0 0 10px;}
+
 .price{list-style-type: none;border: 1px solid #eee;margin: 0;padding: 0;-webkit-transition: 0.3s;transition: 0.3s; border-radius:8px; overflow:hidden;}
 .price:hover {box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)}
 .price .header {background-color: #b3b98b;color: white;font-size: 25px;}
@@ -79,6 +88,19 @@ footer a{color: #696969;}
 .admin_header{width:calc(100% - 70px);}
 .navbar-mini .navbar-left {padding-left: 277px;}
 .inner_page{min-height:450px;}
+
+.legal_news .flexslider .slides {width:100%!important;}
+.legal_news .flexslider .slides>li {width:50%!important;}
+.counter_box {padding:100px 0;}
+.mt35 {margin-top:35px!important;}
+textarea{min-height:80px;}
+.shrt_uploadedImgInput {float: left;color: #0000FF;font-size: 15px;}
+.shrt_uploadedImgInput span input[type="file"] {float: right;margin-right: 5px;}
+.shrt_fileUpload {overflow: hidden;position: relative;background: none repeat scroll 0 0 #fff;border: solid 1px #ccc;border-radius: 6px;color: #333;float: left;font-size: 14px;outline: medium none;padding: 9px 20px;cursor: pointer;}
+.shrt_fileUpload input.upload {cursor: pointer;margin: 0;opacity: 0;padding: 0;position: absolute;right: 0;top: 0;width: 100%;}
+#shrt_filename, #shrt_filename2{float: left;width: calc(100% - 134px);white-space: nowrap;overflow: hidden;text-overflow: ellipsis;padding: 8px 8px;border: solid 1px #ccc;border-radius: 0 4px 4px 0;position: absolute;margin-left: -6px;background: #fff;height: 46px;}
+
+.customer_dashboard{}
 
 /* MEDIA CSS*/
 @media (max-width:1024px){

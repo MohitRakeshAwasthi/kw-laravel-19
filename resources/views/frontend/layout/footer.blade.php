@@ -59,5 +59,4 @@
     </div>
   </div>
 </footer>
-<i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
 <!-- Footer End -->
