@@ -2876,7 +2876,8 @@ div .hc_space_cnt {
 	opacity:.5
 }
 .box-steps .step-item>h3 {
-	font-weight:300
+	font-weight:500;
+    margin-top: 0px;
 }
 .box-steps .step-number {
 	position:absolute;
@@ -4908,9 +4909,6 @@ text-align:center;
 margin:0;
 padding:5px 0
 }
-.navbar-mini .minisocial-group, .navbar-mini .navbar-left {
-display:none
-}
 .navbar-mini .container {
 padding:0
 }
@@ -5258,11 +5256,11 @@ float:left
 width:30%;
 float:left
 }
-table.table, table.table tbody, table.table td, table.table th, table.table thead, table.table tr {
+/*table.table, table.table tbody, table.table td, table.table th, table.table thead, table.table tr {
 display:block;
 width:100%;
 border-bottom-width:1px!important
-}
+}*/
 table.table {
 border:none
 }
@@ -5715,11 +5713,4 @@ font-size:16px
 }
 .mt35 {
 	margin-top:35px!important
-}
-.error{
-	color: red;
-	display: inline-block;
-	max-width: 100%;
-	margin-bottom: 5px;
-	font-weight: 700;
 }

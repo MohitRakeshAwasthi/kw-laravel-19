@@ -33,8 +33,13 @@
     <div id="preloader"></div>
 
     <!--  Header    -->
-    @include('frontend.layout.header')
-
+    
+    @if( auth()->check() ) 
+            @include('frontend.layout.advocate-header') 
+    @else
+            @include('frontend.layout.header')
+    @endif
+    
     <!-- Section Area   -->
     @yield('content')
 

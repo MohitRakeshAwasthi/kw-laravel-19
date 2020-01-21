@@ -1,4 +1,3 @@
-
 <!-- header -->
 <header class="fixed-top scroll-change" data-menu-anima="fade-in">
   <div class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top" role="navigation">
