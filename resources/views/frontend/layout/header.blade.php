@@ -5,7 +5,7 @@
       <div class="container">
         <div class="nav navbar-nav navbar-left"> <span>&nbsp;<i class="fa fa-phone"></i> +91-9354438542</span>
           <hr />
-          <span><a href="mailto:info@kanoonvala.com"><i class="fa fa-envelope"></i> info@kanoonvala.com</a></span>
+          <span><a href="mailto:info@kanoonvala.com"><i class="fa fa-envelope"></i> contact@kanoonvala.com</a></span>
           <hr />
           @if (Auth::check())
             <span><a href="{!! url('logout') !!}"><i class="fa fa-sign-out"></i> Logout</a></span>
@@ -17,7 +17,7 @@
           @endif
           
         <div class="nav navbar-nav pull-right">
-          <div class="minisocial-group"> <a target="_blank" href="https://www.facebook.com/Kanoonvala-1734079183334384/"><i class="fa fa-facebook first"></i></a> <a target="_blank" href="https://twitter.com/kanoonvala"><i class="fa fa-twitter"></i></a> <a target="_blank" href="http://www.inkedin.com"><i class="fa fa-linkedin"></i></a></div>
+          <div class="minisocial-group"> <a target="_blank" href="https://www.facebook.com/Kanoonvala"><i class="fa fa-facebook first"></i></a> <a target="_blank" href="https://twitter.com/kanoonvala"><i class="fa fa-twitter"></i></a> <a target="_blank" href="http://www.inkedin.com"><i class="fa fa-linkedin"></i></a></div>
         </div>
       </div>
     </div>
@@ -129,8 +129,8 @@
                 </div>
               </div>
             </li>
-            <li><a href="#!">Ask For Query</a></li>
-            <li><a href="#!">For Corporates</a></li>
+            <li><a href="{{ url('legal/ask-for-query') }}">Ask For Query</a></li>
+            <li><a href="{{ url('legal/for-corporates') }}">For Corporates</a></li>
             <li><a href="#!">Contact Us</a></li>
           </ul>
         </div>
