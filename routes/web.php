@@ -19,6 +19,7 @@ Route::group(['namespace' => 'Front'], function () {
 	Route::middleware([ 'guest' ])->group(function () {
 
 		Route::resource('signup', 'SignUpController');
+		Route::resource('advocate-signup', 'SignUpController');
 		Route::resource('signin', 'SignInController');
 
 		Route::get('{main}/{slug}', 'StaticPages@index');

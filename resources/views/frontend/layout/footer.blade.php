@@ -38,7 +38,7 @@
       </div>
       <div class="row copy-row">
         <div class="col-md-12 copy-text">
-          <div class="tag-row"> <span><a href="{{ url('legal/join-our-network') }}">Join Our NetWork</a></span> <span><a href="{{ url('legal/lawyers-terms') }}">Lawyers Terms</a></span> <span><a href="{{ url('legal/indian-panel-code') }}">IPC Sectons</a></span> </div>
+          <div class="tag-row"> <span><a href="{{ url('advocate-signup') }}">Join Our NetWork</a></span> <span><a href="{{ url('legal/lawyers-terms') }}">Lawyers Terms</a></span> <span><a href="{{ url('legal/indian-panel-code') }}">IPC Sectons</a></span> </div>
         </div>
       </div>
       <div class="row">

@@ -11,9 +11,12 @@
             <span><a href="{!! url('logout') !!}"><i class="fa fa-sign-out"></i> Logout</a></span>
 
           @else
-            <span><a href="{!! url('signin') !!}"><i class="fa fa-sign-in"></i> Sign In</a></span>
-            <hr />
-            <span><a href="{!! url('signup') !!}"><i class="fa fa-user"></i> Sign Up</a></span> </div>
+
+            @if( ! request()->is('advocate-signup') )
+              <span><a href="{!! url('signin') !!}"><i class="fa fa-sign-in"></i> Sign In</a></span>
+              <hr />
+              <span><a href="{!! url('signup') !!}"><i class="fa fa-user"></i> Sign Up</a></span> </div>
+            @endif
           @endif
           
         <div class="nav navbar-nav pull-right">
