@@ -134,7 +134,7 @@
             </li>
             <li><a href="{{ url('legal/ask-for-query') }}">Ask For Query</a></li>
             <li><a href="{{ url('legal/for-corporates') }}">For Corporates</a></li>
-            <li><a href="#!">Contact Us</a></li>
+            <li><a href="{{ url('contact') }}">Contact Us</a></li>
           </ul>
         </div>
       </div>
