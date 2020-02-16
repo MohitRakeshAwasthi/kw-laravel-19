@@ -45,7 +45,8 @@
         <div class="col-md-12 text-center">
           <hr class="space s" />
           <h2 class="footer-title text-white">Get In Touch</h2>
-          <p>Arjun Enclave Faze-1, Kurshi Road, Lucknow-226026</p>
+          <p>Lucknow:-Kurshi Road, Lucknow-226026</p>
+          <p>Gurgaon:-Speaz IT Park, Sohna Road Gurugram-122018</p>
           <p><i class="fa fa-phone"></i> +91 9354438542 &nbsp; <i class="fa fa-envelope"></i> contact@kanoonvala.com &nbsp; <i class="fa fa-globe"></i> www.kanoonvala.com </p>
           <hr class="space xs" />
           <div class="btn-group navbar-social">

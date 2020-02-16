@@ -5,7 +5,7 @@
       <ul class="slides">
         <li data-slider-anima="fade-left" data-time="1000">
           <div class="section-slide">
-            <div class="bg-cover" style="background-image:url('images/slide1.jpg')"> </div>
+            <div class="bg-cover" style="background-image:url('assets/images/slide1.jpg')"> </div>
             <div class="container">
               <div class="container-middle">
                 <div class="container-inner text-center">
@@ -22,7 +22,7 @@
         </li>
         <li data-slider-anima="fade-left" data-time="1000">
           <div class="section-slide">
-            <div class="bg-cover" style="background-image:url('images/slide2.jpg')"> </div>
+            <div class="bg-cover" style="background-image:url('assets/images/slide2.jpg')"> </div>
             <div class="container">
               <div class="container-middle">
                 <div class="container-inner text-center">
@@ -38,7 +38,7 @@
         </li>
         <li data-slider-anima="fade-left" data-time="1000">
           <div class="section-slide">
-            <div class="bg-cover" style="background-image:url('images/slide3.jpg')"> </div>
+            <div class="bg-cover" style="background-image:url('assets/images/slide3.jpg')"> </div>
             <div class="container">
               <div class="container-middle">
                 <div class="container-inner text-center">
