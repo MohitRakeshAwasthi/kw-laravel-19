@@ -101,6 +101,7 @@ textarea{min-height:80px;}
 #shrt_filename, #shrt_filename2{float: left;width: calc(100% - 134px);white-space: nowrap;overflow: hidden;text-overflow: ellipsis;padding: 8px 8px;border: solid 1px #ccc;border-radius: 0 4px 4px 0;position: absolute;margin-left: -6px;background: #fff;height: 46px;}
 
 .customer_dashboard{}
+label.error{color:#f00; font-weight:400; font-size:12px;}
 
 /* MEDIA CSS*/
 @media (max-width:1024px){
@@ -139,3 +140,4 @@ body, p {font-size: 14px;line-height: 22px;}
 .admin_user img{width: 40px;height: 40px;margin: 0 0 8px 10px;}
 .admin_user span{top:0px;}
 }
+

@@ -1,13 +1,10 @@
 @extends('frontend.layout.master')
-
 <!-- Dynamic Tiltile  -->
 @section('title', 'Signup Page')
-
 <!-- Page Content -->
 @section('content')
-
 <div class="section-empty no-paddings">
-  <div class="section-slider row-12 white">
+  <div class="section-slider row-8 white">
     <div class="flexslider advanced-slider slider visible-dir-nav" data-options="animation:fade">
       <ul class="slides">
         <li data-slider-anima="fade-left" data-time="1000">
@@ -34,7 +31,7 @@
 </div>
 <div class="section-empty">
   <div class="container content">
-    <div class="col-md-6 col-md-offset-3">
+  <div class="col-md-6 col-md-offset-3">
       <div class="row">
         <div class="col-md-12"> 
           <!-- Lawyer Box Open -->
@@ -82,14 +79,10 @@
         </div>
       </div>
     </div>
-  </div>
 </div>
-
+</div>
 @stop
-
 @push('scripts')
-
 <script src="{!! asset('assets/scripts/validate1.15.1.js')!!}" type="text/javascript"></script>
 <script src="{!! asset('assets/scripts/pagejs/signup.js') !!}" type="text/javascript"></script>
-
 @endpush

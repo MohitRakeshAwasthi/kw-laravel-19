@@ -7,7 +7,7 @@
 @section('content')
 
 <div class="section-empty no-paddings">
-  <div class="section-slider row-12 white">
+  <div class="section-slider row-8 white">
     <div class="flexslider advanced-slider slider visible-dir-nav" data-options="animation:fade">
       <ul class="slides">
         <li data-slider-anima="fade-left" data-time="1000">
