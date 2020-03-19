@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Advocate to File Complaint under RERA ')
+@section('description', 'kanoonvala.com provide highly experienced Advocate to file Complaint under RERA. Get legal advice now!')
+@section('keywords', 'Advocate to File Complaint under RERA, Lawyer for Legal Notice to Builder, Advocate to File Complaint under RERA, Registration Lawyer in India')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

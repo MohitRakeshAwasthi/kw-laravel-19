@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Lawyer for Court Marriage in India')
+@section('description', 'Lawyer for Court Marriage in India from kanoonvala.com Get Court Marriage Advice from highly experienced lawyers of kanoonvala.')
+@section('keywords', 'Lawyer for Court Marriage in India, Legal Advice from Top Lawyers India, Succession Certificate Lawyer India, Mutual Consent Divorce Lawyer in India')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

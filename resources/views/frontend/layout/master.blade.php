@@ -6,8 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Title -->
-    <title>{{ env('APP_NAME') }} - @yield('title')</title>
+    <title>@yield('title') - {{ env('APP_NAME') }}</title>
+    <!--- Keywords -->
+    <meta name="keywords" content="@yield('keywords')">   
+     
+     <meta name="description" content="@yield('description')">
+     <meta name="robots" content="index, follow" />
+    <meta http-equiv="refresh" content="30">
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+    ga('create', 'UA-121860406-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{!! asset('assets/images/favicon.png') !!}">
 
@@ -15,14 +31,14 @@
     <link rel="stylesheet" href="{!! asset('assets/scripts/bootstrap/css/bootstrap.css') !!}">
     
     <!-- Include CSS globally -->
-    <link rel="stylesheet" href="{!! asset('assets/scripts/font-awesome/css/font-awesome.css') !!}">
+    <!--<link rel="stylesheet" href="{!! asset('assets/scripts/font-awesome/css/font-awesome.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/style.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/content-box.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/image-box.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/animations.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/scripts/flexslider/flexslider.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/skin.css') !!}">
-    <link rel="stylesheet" href="{!! asset('assets/css/custom.css') !!}">
+    <link rel="stylesheet" href="{!! asset('assets/css/custom.css') !!}">-->
     
     @stack('css')
 

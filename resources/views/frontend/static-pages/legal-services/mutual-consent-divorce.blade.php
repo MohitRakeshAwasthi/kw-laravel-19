@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Mutual Consent Divorce Lawyer in India ') 
+@section('description', 'Mutual Consent Divorce Lawyer in India from kanoonvala.com; file a Divorce by Mutual Consent Petition with the help of kanoonvala.com. Ask away now!')
+@section('keywords', 'Mutual Consent Divorce Lawyer in India, Lawyer for Court Marriage in India, Legal Advice from Top Lawyers India, Succession Certificate Lawyer India')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

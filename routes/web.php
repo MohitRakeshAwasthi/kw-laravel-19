@@ -24,7 +24,7 @@ Route::group(['namespace' => 'Front'], function () {
 		Route::resource('advocate-signup', 'SignUpController');
 		Route::resource('signin', 'SignInController');
 		
-		Route::resource('contact', 'ContactController');
+		Route::resource('contactus', 'ContactUsController');
 			
 		
 		Route::get('{main}/{slug}', 'StaticPages@index');

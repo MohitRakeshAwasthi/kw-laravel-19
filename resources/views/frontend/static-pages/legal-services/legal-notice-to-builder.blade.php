@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Lawyer for Legal Notice to Builder')
+@section('description', 'Book Appointment or Consult a Lawyer for Legal Notice to Builder in India. Consult Best Lawyer / Advocate of kanoonvala.com')
+@section('keywords', 'Lawyer for Legal Notice to Builder, Advocate to File Complaint under RERA, Lawyer for Legal Notice to Builder, Registration Lawyer in India')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Succession Certificate Lawyer India | Legal Hire lawyer online')
+@section('description', 'Succession Certificate Lawyer and Legal Heir Lawyer available in India. Get support from expertise in drafting and executing Succession Certificate.')
+@section('keywords', 'Succession Certificate Lawyer India, Mutual Consent Divorce Lawyer in India, Legal Heir Lawyer India, Property Registration Lawyer in India')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

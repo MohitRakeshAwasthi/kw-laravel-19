@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Property Registration Lawyer in India | Property Issues India')
+@section('description', 'Contact Kanoonvala for property registration Lawyer in India, ancestral property settlement, property disputes among family, illegal possession etc.')
+@section('keywords', 'Legal AdviceProperty Registration Lawyer in India Registration Lawyer in India, Succession Certificate Lawyer India, Mutual Consent Divorce Lawyer in India, Legal Lawyer India')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

@@ -1,7 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Contact Page') 
-
+@section('title', 'Contact Page')
+@section('description', 'Share text and photos with your friends and have fun')
+@section('keywords', 'Legal Advice from Top Lawyers India, Mutual Consent Divorce Lawyer in India, Lawyer for Court Marriage in India')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">
@@ -36,11 +37,12 @@
   <div class="row">
     <div class="col-sm-8 col-sm-8 col-xs-12">
       <h2>Send a Message</h2>
-      <form id="contactForm" method="post" action="#">
+      <form id="contactForm" method="post" action="contactus">
         <div class="row">
           <div class="col-lg-6 formmargin">
             <div class="form-group">
               <input type="text" placeholder="Name" id="name" name="name" class="form-control" required>
+              <input type="hidden" name="_token" value="{{ csrf_token() }}">
             </div>
             <div class="form-group">
               <input type="email" placeholder="Email" id="email" name="email" class="form-control" required>
