@@ -31,14 +31,14 @@
     <link rel="stylesheet" href="{!! asset('assets/scripts/bootstrap/css/bootstrap.css') !!}">
     
     <!-- Include CSS globally -->
-    <!--<link rel="stylesheet" href="{!! asset('assets/scripts/font-awesome/css/font-awesome.css') !!}">
+    <link rel="stylesheet" href="{!! asset('assets/scripts/font-awesome/css/font-awesome.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/style.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/content-box.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/image-box.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/animations.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/scripts/flexslider/flexslider.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/skin.css') !!}">
-    <link rel="stylesheet" href="{!! asset('assets/css/custom.css') !!}">-->
+    <link rel="stylesheet" href="{!! asset('assets/css/custom.css') !!}">
     
     @stack('css')
 
