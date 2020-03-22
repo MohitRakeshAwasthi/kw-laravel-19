@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Founders Agreement Online India')
+@section('description', 'Founders Agreement Online with the help of a legal expert. Online Co-founder Agreement between two or more partners jointly.')
+@section('keywords', 'Founders Agreement Online India, Online Co-founder Agreement, Draft your Founders Agreement, founder and investor agreement, shareholder agreement online, co-creator agreement')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

@@ -1,6 +1,7 @@
 @extends('frontend.layout.master') 
-<!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Website Documents And Policies')
+@section('description', 'Join Now to Draft Website Documents and Policies; choose an all-inclusive optimum legal solution for your business with Kanoonvala.com!')
+@section('keywords', 'Website Documents and Policies, Draft Website Documents and Policies')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

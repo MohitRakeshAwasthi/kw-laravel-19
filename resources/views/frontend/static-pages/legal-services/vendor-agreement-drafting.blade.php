@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Vendor Agreement Online India')
+@section('description', 'Vendor agreement online India for any individual or a business owner. Get Vendor Agreement for online stores, online marketplace seller and e-commerce partnership.')
+@section('keywords', 'Vendor Agreement online India, Vendor Agreement for online stores, Vendor Agreement for business owner')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

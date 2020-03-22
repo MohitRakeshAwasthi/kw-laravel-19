@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Draft & Send Tenant Eviction Notice India')
+@section('description', 'Looking for the Draft & Send Tenant Eviction Notice Lawyers/Advocates? Get legal services like Notice to Pay Rent or Quit, Lease Violation Notice, or Notice to Quit, etc.')
+@section('keywords', 'Late Rent Notice, Draft & Send Tenant Eviction Notice India, Lease Renewal, Lease Termination, Notice of Rent Increase, Property Management Agreement, Rental Application')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

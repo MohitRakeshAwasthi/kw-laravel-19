@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Send Refund of Security Notice Online ')
+@section('description', 'Send Refund of Security Notice Online through the top lawyers and Advocates in your locality and in India. ')
+@section('keywords', 'Send Refund of Security Notice Online, Security Deposit, refundable Security Deposit, Draft Security Deposit Return Notice')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

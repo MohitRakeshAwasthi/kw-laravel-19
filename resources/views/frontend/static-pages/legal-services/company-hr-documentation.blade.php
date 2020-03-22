@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'File Company HR Documents Online')
+@section('description', 'Join Now to File Company HR Documents Online with the help of kanoonvala.com; Hire the top lawyers to assist you draft a Company HR Documents.')
+@section('keywords', 'File Company HR Documents Online, Company HR Documents, Human Resources Document')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

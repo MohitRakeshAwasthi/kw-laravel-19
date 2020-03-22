@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Draft and registration of Will India')
+@section('description', 'Draft and registration of a Will, draft a power of attorney, Will registration procedure & How to register a will in India? Consult a lawyer from kanoonvala.com')
+@section('keywords', 'Draft and Registration of Will, How to register a will in India?, Will registration procedure, Stamp paper for will, registration of will after death, Registration of will in Uttar Pradesh, Will draft India, draft sample, draft a power of attorney, joint will format India')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

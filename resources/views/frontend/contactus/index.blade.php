@@ -1,8 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Contact Page')
-@section('description', 'Share text and photos with your friends and have fun')
-@section('keywords', 'Legal Advice from Top Lawyers India, Mutual Consent Divorce Lawyer in India, Lawyer for Court Marriage in India')
+@section('title', 'Consumer Complaint Notice Online')
+@section('description', 'Send Consumer Complaint Notice Online in India. Let’s discuss with legal advisors to know the procedure of file complaint in consumer court.')
+@section('keywords', 'Consumer Complaint Notice Online, consumer forum complaint online, application for consumer court, how to file complaint consumer forum')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

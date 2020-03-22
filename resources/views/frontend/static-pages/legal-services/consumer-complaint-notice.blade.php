@@ -1,7 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
-<!-- Page Content --> 
+@section('title', 'Consumer Complaint Notice Online')
+@section('description', 'Send Consumer Complaint Notice Online in India. Let’s discuss with legal advisors to know the procedure of file complaint in consumer court.')
+@section('keywords', 'Consumer Complaint Notice Online, consumer forum complaint online, application for consumer court, how to file complaint consumer forum')
 @section('content')
 <div class="section-empty no-paddings">
   <div class="section-slider row-8 white">

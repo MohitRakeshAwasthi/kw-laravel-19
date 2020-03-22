@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Non-Disclosure Agreement Online')
+@section('description', 'Draft a Non-Disclosure Agreement Online and get contract between two people or companies with the help of kanoonvala.com; Consult Now!')
+@section('keywords', 'Non-Disclosure Agreement Online, Draft a Non-Disclosure Agreement')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">

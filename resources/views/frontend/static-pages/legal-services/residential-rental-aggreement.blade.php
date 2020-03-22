@@ -1,6 +1,8 @@
 @extends('frontend.layout.master') 
 <!-- Dynamic Tiltile  --> 
-@section('title', 'Family Law') 
+@section('title', 'Draft Rent Agreement Online | Rental agreement')
+@section('description', 'Kanoonvala offers Draft Rent Agreement Online, house rent agreement, residential rental agreement, rent agreement renewal & lease agreement services in UP India. ')
+@section('keywords', 'Draft Rent Agreement Online, Rent agreement online India, house rent agreement, residential rent agreement, rent agreement renewal, lease agreement, rent agreement online up')
 <!-- Page Content --> 
 @section('content')
 <div class="section-empty no-paddings">
